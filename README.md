@@ -3,9 +3,9 @@
 
 类似这种报错Info: `Error: ld: library not found for "-lstdc++.6"`
 
-以上两种方法任意选择一种即可:
+以下两种方法任意选择一种即可:
 
-1. <br>打开终端输入以下命令
+1. 打开终端输入以下命令
 
    ```shell
    sh -c "$(curl -fsSL https://raw.githubusercontent.com/chenjiangui/fix_xcode_libc-/master/network_fix.sh)"
@@ -13,9 +13,7 @@
 
    
 
-2. <br>
-
-   打开终端克隆仓库,或者下载仓库到本地,执行`local_fix.sh`脚本
+2. 打开终端克隆仓库,或者下载仓库到本地,执行`local_fix.sh`脚本
 
    ```shell
    git clone https://github.com/chenjiangui/fix_xcode_libc-.git
