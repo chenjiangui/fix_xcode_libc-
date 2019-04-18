@@ -1,14 +1,14 @@
 # 修复Xcode10报错脚本
 一键修复Xcode10以及后续升级Xcode缺少libc++等库引起的报错.
 
-类似这种报错Info: `Error: ld: library not found for "-lstdc++.6"`
+类似这种报错Info: `Error: ld: library not found for -lstdc++`
 
 以下两种方法任意选择一种即可:
 
 1. 打开终端输入以下命令
 
    ```shell
-   sh -c "$(curl -fsSL https://raw.githubusercontent.com/chenjiangui/fix_xcode_libc-/master/network_fix.sh)"
+   sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/chenjiangui/fix_xcode_libc-/master/network_fix.sh)"
    ```
 
    
