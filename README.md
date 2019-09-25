@@ -1,5 +1,5 @@
-# 修复Xcode10报错脚本
-一键修复Xcode10以及后续升级Xcode缺少libc++等库引起的报错.
+# 修复Xcode10, Xcode11报错脚本
+一键修复Xcode10,xcode11以及后续升级Xcode缺少libc++等库引起的报错.
 
 类似这种报错Info: `Error: ld: library not found for -lstdc++`
 
